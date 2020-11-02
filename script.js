@@ -79,7 +79,7 @@ console.log(weather)
 
 document.getElementById('cityState').innerText = `${city}, ${state}`
 document.getElementById('temp').innerText = `${temp}` + '\u00B0'
-document.getElementById('airQuality').innerText = `${airQuality} air quality`
+document.getElementById('airQuality').innerText = `${airQuality}`
 document.getElementById('humidity').innerText = `${humidity}`
 
 if (weather === '01d') {
